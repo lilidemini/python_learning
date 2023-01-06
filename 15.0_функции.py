@@ -141,11 +141,3 @@ while True:
     album = make_album(auth_name, al_name, number)
     print(album)
 
-# Передача списка
-def greeting_users(names):
-    for name in names:
-        print(f"Hello,{name}")
-
-usernames = ['Lola', 'Lili', 'Kate']
-greeting_users(usernames) # Hello,Lola Hello,Lili Hello,Kate
-
